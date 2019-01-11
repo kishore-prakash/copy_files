@@ -2,7 +2,7 @@ import os
 import shutil
 import json
 
-with open('selected.json') as file:
+with open('selected_1.json') as file:
         data = json.load(file)
 
 folders = data["folders"]
